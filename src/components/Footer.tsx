@@ -8,9 +8,9 @@ const Footer = () => {
             <div>
                 <p className='pb-3'>286 Cadman Plaza, New York,<br /> NY 11238, United States</p>
                 <div className='flex gap-x-5'>
-                    <a href="https://twitter.com/"><img className='cursor-pointer' src="src/assets/icons/Twitter_icon.svg" alt="Twitter" /></a>
-                    <a href="https://www.instagram.com/"><img className='cursor-pointer' src="src/assets/icons/Instagram_icon.svg" alt="Instagram" /></a>
-                    <a href="https://www.facebook.com/"><img className='cursor-pointer' src="src/assets/icons/Facebook_icon.svg" alt="Facebook" /></a>
+                    <a href="https://twitter.com/"><img className='cursor-pointer' src="src/assets/icons/Twitter_icon.jpg" alt="Twitter" /></a>
+                    <a href="https://www.instagram.com/"><img className='cursor-pointer' src="src/assets/icons/Instagram_icon.jpg" alt="Instagram" /></a>
+                    <a href="https://www.facebook.com/"><img className='cursor-pointer' src="src/assets/icons/Facebook_icon.jpg" alt="Facebook" /></a>
                 </div>
             </div>
             <div>
