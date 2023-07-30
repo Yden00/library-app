@@ -25,7 +25,7 @@ module.exports = {
       xl: "1440px",
     },
     backgroundImage: {
-      welcome: "url('./public/welcome-1440.jpg')",
+      welcome: "url('/welcome-1440.jpg')",
     },
   },
   plugins: [],
