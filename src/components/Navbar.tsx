@@ -1,5 +1,3 @@
-import IconProfile from '../assets/icons/icon_profile.svg';
-
 import { navLinks } from '../constants'
 import styles from '../style'
 
@@ -14,7 +12,7 @@ export const Navbar = () => {
             <li key={nav.id} className={`font-inter font-regular cursor-pointer text-header_footer_text text-[1.27rem] hover:text-secondary leading-10 ${ styles.text }`}><a href={`#${ nav.id }`}>{nav.title}</a></li>
           ))
         }
-        <a href="#"><IconProfile className="w-7 h-7 ml-3 cursor-pointer" /></a>
+        <a href="#"><img src='../assets/icons/icon_profile.png' alt="Profile" className='w-7 h-7 ml-3 cursor-pointer ' /></a>
       </ul>
     </nav>
   )
