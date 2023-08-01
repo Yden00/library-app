@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styles from '../style'
-import { Navbar } from './NavBar'
+import { NavBar } from './NavBar'
 
 export const Header = () => {
   const [burgerActive, setBurgerActive] = useState('')
@@ -8,7 +8,7 @@ export const Header = () => {
     <nav className={styles.nav}>
       <h1 className={`${styles.heading1}`}>Brooklyn Public Library</h1>
       <div className='flex ml-auto'>
-        <Navbar 
+        <NavBar 
           ulClassName={`list-none md:flex hidden justify-between items-center w-[90%] pt-1`} 
           liClassName={`font-inter ml-[30px] font-regular cursor-pointer text-header_footer_text text-[1.27rem] ${styles.hover} leading-10 ${ styles.text }`}
         />
@@ -20,7 +20,7 @@ export const Header = () => {
         </div>
         <div className={`burger-menu xs:pt-[22px] pt-[27px] pb-[70px] extras:w-[332px] w-full relative ${burgerActive}`}>
           <a href="#"><img src='/icon_profile.png' alt="Profile" className='icon-profile'/></a>
-          <Navbar 
+          <NavBar 
             ulClassName={`list-none md:hidden flex flex-col justify-between items-center `} 
             liClassName={`font-inter pb-[30px] ml-[30px] font-regular cursor-pointer text-header_footer_text text-[1.27rem] ${styles.hover} leading-10 ${ styles.text }`}
           />

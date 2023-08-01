@@ -1,12 +1,12 @@
 import { navLinks } from '../constants';
 
 
-interface NavbarProps {
+interface NavBarProps {
   ulClassName: string;
   liClassName: string;
 }
 
-export const Navbar = ({ ulClassName, liClassName }: NavbarProps) => {
+export const NavBar = ({ ulClassName, liClassName }: NavBarProps) => {
   return (
     <ul className={ulClassName}>
       {navLinks.map((nav) => (
