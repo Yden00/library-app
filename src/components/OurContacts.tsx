@@ -11,12 +11,12 @@ export const OurContacts = () => {
         <div className="px-[23px]">
           <h4 className='font-inter text-section_heading leading-10 tracking-[2px] pb-[34px] font-black text-[20px]'>For all Library inquiries:</h4>
           <p className={`${styles.paragraph} leading-[59px] tracking-widest`}>
-            Please call (617) 730-2370 <br />
-            For TTY service, please call (617) 730-2370 <br />
-            Putterham Library: (617) 730-2385
+            Please call <a type="tel" href="tel:+16177302370">(617) 730-2370</a><br />
+            For TTY service, please call <a type="tel" href="tel:+16177302370">(617) 730-2370</a><br />
+            Putterham Library: <a type="tel" href="tel:+16177302370">(617) 730-2385</a>
           </p>
           <h4 className="pt-[30px] font-inter text-section_heading leading-10 tracking-[2px] pb-[12px] font-black text-[20px] ">Senior Staff</h4>
-          <p className={`${styles.paragraph} leading-[59px] tracking-widest`}>Library Director: <b>Amanda Hirst</b></p>
+          <p className={`${styles.paragraph} leading-[59px] tracking-widest`}><a type="mailto" href="mailto:amanda.hirst@example.com">Library Director: <b>Amanda Hirst</b></a></p>
         </div>
         <div className="w-[708px] h-[418px] ml-auto">
         <iframe
