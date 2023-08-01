@@ -9,7 +9,7 @@ export const Navbar = () => {
         <ul className='list-none md:flex hidden justify-between items-center w-[580px] pt-1'>
           {
             navLinks.map((nav)=>(
-              <li key={nav.id} className={`font-inter font-regular cursor-pointer text-header_footer_text text-[1.27rem] transition-color duration-200 ease-in hover:text-secondary leading-10 ${ styles.text }`}><a href={`#${ nav.id }`}>{nav.title}</a></li>
+              <li key={nav.id} className={`font-inter font-regular cursor-pointer text-header_footer_text text-[1.27rem] ${styles.hover} leading-10 ${ styles.text }`}><a href={`#${ nav.id }`}>{nav.title}</a></li>
             ))
          }
         </ul>
