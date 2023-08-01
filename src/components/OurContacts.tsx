@@ -20,7 +20,7 @@ export const OurContacts = () => {
         </div>
         <div className="w-[708px] h-[418px] ml-auto">
         <iframe
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-_BxxG9QUWZdTxNIhhyOujGJaZMsnMME&q=286+Cadman+Plaza+W,Brooklyn,NY+11201,USA"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-_BxxG9QUWZdTxNIhhyOujGJaZMsnMME&q=286+Cadman+Plaza+W,Brooklyn,NY+11201,USA&zoom=18"
           width="100%"
           height="100%"
           aria-hidden="false"

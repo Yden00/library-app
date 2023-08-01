@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
 .black__gradient {
     background-image: linear-gradient(to top, transparent 50%, black 100%);
     top: 0;
@@ -19,14 +23,15 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  margin: 0 5px;
+  margin: 5px;
   cursor: pointer;
+  padding: 5px;
   background-color: black;
   transition: background-color 0.3s ease;
 }
 
 .paginationDot.active {
-  background-color: red;
+  background-color: #BB945F;
 }
 
 input[type="radio"] {
@@ -64,4 +69,8 @@ input[type="radio"]:checked {
   position: absolute;
   bottom: -1px;
   right: -40px; 
+}
+
+a[href^="#"] {
+  scroll-behavior: smooth;
 }

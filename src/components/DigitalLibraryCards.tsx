@@ -16,15 +16,15 @@ export const DigitalLibraryCards = () => {
               <input className={styles.cardInput} type="text" placeholder="Reader's name" />
               <input className={styles.cardInput} type="text" placeholder="Card number" />
             </div>
-          <button className="text-center font-inter text-[22px] font-semibold rounded-[2px] border-[2px] py-[4px] px-[38px] mt-5 ml-[28%] border-section_heading hover:bg-secondary">Check the card</button>
+          <button className="text-center font-inter text-[22px] font-semibold rounded-[2px] border-[2px] py-[4px] px-[38px] mt-5 ml-[28%] border-section_heading hover:bg-secondary transition-color duration-200 ease-in">Check the card</button>
           </div>
         </form>
         <div className=" flex flex-col text-right pr-5">
           <h4 className="font-forum text-[30px] leading-[40px] font-normal tracking-wide pb-7 text-right pl-5">Get a reader card</h4>
           <p className={`${styles.paragraph} tracking-wide`}>You will be able to see a reader card after <br /> logging into account or you can register a new <br />account</p>
           <div className="pt-[37px]">
-            <button className="text-center font-inter text-[11px] font-semibold tracking-wide rounded-[2px] border-[1px] px-[15px] py-[6px] border-section_heading mr-5 hover:bg-secondary">Sign Up</button>
-            <button className="text-center font-inter text-[11px] font-semibold tracking-wide rounded-[2px] border-[1px] px-[20px] py-[6px] border-section_heading hover:bg-secondary">Log in</button>
+            <button className="text-center font-inter text-[11px] font-semibold tracking-wide rounded-[2px] border-[1px] px-[15px] py-[6px] border-section_heading mr-5 hover:bg-secondary transition-color duration-200 ease-in">Sign Up</button>
+            <button className="text-center font-inter text-[11px] font-semibold tracking-wide rounded-[2px] border-[1px] px-[20px] py-[6px] border-section_heading hover:bg-secondary transition-color duration-200 ease-in">Log in</button>
           </div>
         </div>
       </div>

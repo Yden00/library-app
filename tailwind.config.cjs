@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      cursor: ['disabled'],
+      backgroundColor: ['disabled'],
+      textColor: ['disabled'],
       colors: {
         header_footer_text: "#FFFFFF",
         section_heading: "#0C0C0E",

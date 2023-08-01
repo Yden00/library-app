@@ -172,7 +172,7 @@ export const seasonBooks = [
     name: "Slug: And Other Stories",
     author: "Megan Milks",
     description: "Exes Tegan and Sara find themselves chained together by hairballs of codependency. A father and child experience the shared trauma of giving birth to gods from their wounds.",
-    image: "/Book_slug.jpg",
+    image: "/Book_Slug.jpg",
   },
 ]
 
