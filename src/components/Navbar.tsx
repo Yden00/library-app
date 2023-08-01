@@ -5,7 +5,7 @@ interface NavbarProps {
   liClassName: string;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ ulClassName, liClassName }) => {
+export const Navbar: React.FC<NavbarProps> = ({ ulClassName, liClassName }) => {
   return (
     <ul className={ulClassName}>
       {navLinks.map((nav) => (
@@ -16,5 +16,3 @@ const Navbar: React.FC<NavbarProps> = ({ ulClassName, liClassName }) => {
     </ul>
   );
 };
-
-export default Navbar;
