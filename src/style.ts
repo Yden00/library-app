@@ -1,7 +1,7 @@
 const styles = {
     text: "md:text-base lg:text-lg xl:text-xl",
     boxWidth: "xl:max-w-[1440px] w-full",
-    heading1: "font-forum font-regular text-white text-[2rem] leading-50px w-92 tracking-2 whitespace-nowrap pl-3",
+    heading1: "font-forum font-700 text-white text-[2rem] leading-50px w-92 tracking-2 whitespace-nowrap pl-3",
     heading2: "font-forum font-regular text-section_heading leading-10 tracking-[2px] text-[40px] pb-[20px]",
     paragraph: "font-inter font-regular text-black text-[20px] leading-[40px]",
     paddingX: "md:px-[154px] px-[40px]",

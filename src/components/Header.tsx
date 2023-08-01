@@ -16,12 +16,12 @@ const Header = () => {
               </li>
             ))}
         </ul>
-        <a className='h-[28px] pr-6 flex flex-start align-middle justify-center' href="#"><img src='/icon_profile.png' alt="Profile" className='icon-profile xs:block hidden'/></a>
+        <a className='h-[28px] pr-8 flex flex-start align-middle justify-center' href="#"><img src='/icon_profile.png' alt="Profile" className='icon-profile xs:block hidden'/></a>
         <div className='burger-img md:hidden block'>
             <div className='pt-6'>
-            <span className={`line ${burgerActive}`}></span>
-            <span className={`line ${burgerActive}`}></span>
-            <span className={`line ${burgerActive}`}></span>
+              <span className={`line ${burgerActive}`}></span>
+              <span className={`line ${burgerActive}`}></span>
+              <span className={`line ${burgerActive}`}></span>
             </div>
         </div>
         <div className={`burger-menu  pt-[27px] pb-[70px] extras:w-[332px] w-full relative ${burgerActive}`}>
