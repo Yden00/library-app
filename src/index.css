@@ -56,8 +56,8 @@ input[type="radio"]:checked {
 
 
 .icon-profile {
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
   margin: 0 1.5rem;
 }
@@ -110,9 +110,11 @@ a[href^="#"] {
   width: 45px;
   height: 100%;
   position: relative;
-  padding-top: 25px;
   z-index: 2;
+  align-items: center;
+  margin-right: auto;
 }
+
 
 .line {
   width: 45px;
@@ -125,11 +127,11 @@ a[href^="#"] {
 }
 
 .line:nth-of-type(2) {
-  top: calc(50% - 8px);
+  top: calc(50% - 7px);
 }
 
 .line:nth-of-type(3) {
-  top: calc(50% + 2px);
+  top: calc(50% + 3px);
 }
 
 .line.active:first-of-type {
