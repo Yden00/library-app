@@ -1,11 +1,12 @@
 import { navLinks } from '../constants';
 
+
 interface NavbarProps {
   ulClassName: string;
   liClassName: string;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ ulClassName, liClassName }) => {
+export const Navbar = ({ ulClassName, liClassName }: NavbarProps) => {
   return (
     <ul className={ulClassName}>
       {navLinks.map((nav) => (
