@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import styles from '../style'
-import { NavBar } from './NavBar'
+import { useState } from 'react';
+import styles from '../style';
+import NavBar from './NavBar.tsx';
 
 export const Header = () => {
   const [burgerActive, setBurgerActive] = useState('')

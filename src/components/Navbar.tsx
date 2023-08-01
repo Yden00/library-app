@@ -6,7 +6,7 @@ interface NavBarProps {
   liClassName: string;
 }
 
-export const NavBar = ({ ulClassName, liClassName }: NavBarProps) => {
+const NavBar = ({ ulClassName, liClassName }: NavBarProps) => {
   return (
     <ul className={ulClassName}>
       {navLinks.map((nav) => (
@@ -17,3 +17,5 @@ export const NavBar = ({ ulClassName, liClassName }: NavBarProps) => {
     </ul>
   );
 };
+
+export default NavBar
