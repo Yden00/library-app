@@ -6,8 +6,9 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "allowJs": true,
+    "baseUrl": "./",
     "paths": {
-      "*": ["./src/components/Header.tsx", "./src/components/NavBar.tsx"]
+      "@components/*": ["src/components/*"]
     },
     /* Bundler mode */
     "moduleResolution": "bundler",

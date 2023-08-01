@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from '../style';
 import NavBar from './NavBar.tsx';
 
-export const Header = () => {
+const Header = () => {
   const [burgerActive, setBurgerActive] = useState('')
   return (
     <nav className={styles.nav}>
@@ -31,3 +31,7 @@ export const Header = () => {
     </nav>
   )
 }
+
+
+export default Header
+

@@ -1,7 +1,6 @@
 import styles from "../style";
 
-export const DigitalLibraryCards = () => {
-  return (
+const DigitalLibraryCards = () => (
     <section id="libraryCard" className="pt-9">
       <div  className={`${styles.flexCenter} flex-col p-5 w-full pb-10`}>
         <h2 className={`${styles.heading2}`}>Digital Library Cards</h2>
@@ -30,4 +29,5 @@ export const DigitalLibraryCards = () => {
       </div>
     </section>
   );
-}
+  
+export default DigitalLibraryCards

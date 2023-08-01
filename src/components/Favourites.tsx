@@ -2,7 +2,8 @@ import styles from "../style";
 import { seasonsList } from "../constants";
 import { useState } from "react";
 import BookList from "./BookList";
-export const Favourites = () => {
+
+const Favourites = () => {
   const [selectedLabel, setSelectedLabel] = useState('winter') 
   return (
     <section id="favorites" className="flex flex-col px-5 pb-10 pt-2">
@@ -27,3 +28,5 @@ export const Favourites = () => {
     </section>
   );
 }
+
+export default Favourites

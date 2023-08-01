@@ -1,6 +1,6 @@
 import { seasonBooks } from "../constants";
 import styles from "../style";
-import { useState } from 'react'; // Import useState
+import { useState } from 'react';
 
 interface BookListProps {
   setSeason: string;

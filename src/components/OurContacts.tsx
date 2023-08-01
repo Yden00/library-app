@@ -1,7 +1,6 @@
 import styles from "../style";
 
-export const OurContacts = () => {
-  return (
+const OurContacts = () => (
     <section id="contacts">
       <div className={`${styles.flexCenter} flex-col p-5 w-full pb-10`}>
         <h2 className={`${styles.heading2}`}>Our Contacts</h2>
@@ -29,4 +28,5 @@ export const OurContacts = () => {
       </div>
     </section>
   );
-}
+
+export default OurContacts
