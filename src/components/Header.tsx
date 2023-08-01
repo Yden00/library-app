@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styles from '../style'
-import Navbar from './NavBar.tsx'
+import Navbar from './NavBar'
 
 export const Header = () => {
   const [burgerActive, setBurgerActive] = useState('')
