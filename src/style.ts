@@ -7,7 +7,7 @@ const styles = {
     paddingX: "md:px-[154px] px-[40px]",
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-start items-start",
-    nav: " bg-section_heading w-full flex md:justify-between justify-around py-5 px-5 items-center",
+    nav: " bg-section_heading w-full flex md:justify-between justify-around py-5 items-center",
     pagination: "pagination",
     paginationDot: "paginationDot",
     paginationActive: "active",
