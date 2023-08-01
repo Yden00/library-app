@@ -10,7 +10,8 @@
     "preview": "vite preview --port 8080",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "rollup": "rollup -c"
   },
   "dependencies": {
     "framer-motion": "^10.15.0",
@@ -19,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
     "@svgr/rollup": "^8.0.1",
     "@types/node": "^20.4.5",
     "@types/react": "^18.2.15",
