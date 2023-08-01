@@ -24,7 +24,11 @@ module.exports = {
       }
     },
     screens: {
-      md: "768px",
+      extras: "370px",
+      xxs: "425px",
+      xs: "480px",
+      sm: "768px",
+      md: "971px",
       xl: "1440px",
     },
     backgroundImage: {

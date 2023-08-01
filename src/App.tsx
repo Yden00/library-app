@@ -1,5 +1,5 @@
 
-import { About, CoffeeShop, DigitalLibraryCards, Favourites, Navbar, OurContacts, Welcome } from "./components";
+import { About, CoffeeShop, DigitalLibraryCards, Favourites, Header, OurContacts, Welcome } from "./components";
 import Evaluation from "./components/Evaluation";
 import Footer from "./components/Footer";
 import styles from "./style";
@@ -11,7 +11,7 @@ const App: React.FC<AppProps> = () => (
     <Evaluation/>
     <header className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar />
+        <Header />
       </div>
     </header>
 
