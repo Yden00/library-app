@@ -16,7 +16,7 @@ const Header = () => {
               </li>
             ))}
         </ul>
-        <a className='h-[28px] pr-8 flex flex-start align-middle justify-center' href="#"><img src='/icon_profile.png' alt="Profile" className='icon-profile sm:block hidden'/></a>
+        <a className='h-[28px] pr-2 flex flex-start align-middle justify-center' href="#"><img src='/icon_profile.png' alt="Profile" className='icon-profile xs:block hidden'/></a>
         <div className='burger-img' onClick={() => setBurgerActive(prevState => prevState ? '' : 'active')}>
             <div className='pt-6'>
               <span className={`line ${burgerActive}`}></span>
