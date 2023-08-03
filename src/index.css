@@ -111,7 +111,7 @@ a[href^="#"] {
 }
 
 .burger-img {
-  width: 45px;
+  width: 80px;
   height: 100%;
   position: relative;
   z-index: 2;
@@ -150,4 +150,17 @@ a[href^="#"] {
 
 .line.active:nth-of-type(3) {
   transform: translateX(200%);
+}
+
+@media (max-width: 970px) {
+  .burger-img {
+    display: block;
+  }
+}
+
+@media (min-width: 971px) {
+  .burger-img {
+    display: none;
+    pointer-events: none;
+  }
 }
