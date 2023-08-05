@@ -24,7 +24,6 @@ html{
 .pagination {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
 }
   
 .paginationDot {
@@ -130,6 +129,24 @@ a[href^="#"] {
   transition: all 0.5s;
 }
 
+.main-slider-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.all-pages{
+  display: flex;
+  justify-items: center;
+  margin-bottom: 2rem;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+
 .line:nth-of-type(2) {
   top: calc(50% - 7px);
 }
@@ -177,3 +194,4 @@ a[href^="#"] {
     font-size: 2.1rem;
   }
 }
+

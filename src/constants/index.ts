@@ -22,23 +22,23 @@ export const navLinks = [
 ];
 export const sliderImages = [
   {
-    id: "about1",
+    id: "1",
     path: '/About_image1.jpg',
   },
   {
-    id: "about2",
+    id: "2",
     path: '/About_image2.jpg',
   },
   {
-    id: "about3",
+    id: "3",
     path: '/About_image3.jpg',
   },
   {
-    id: "about4",
+    id: "4",
     path: '/About_image4.jpg',
   },
   {
-    id: "about5",
+    id: "5",
     path: '/About_image5.jpg',
   },
 ];
