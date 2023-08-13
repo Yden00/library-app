@@ -22,7 +22,7 @@ const SliderContainer = ({ pages, setCurrentPage, currentPage }: SliderContainer
 
   return (
     <div className="main-slider-container w-[450px] md:w-[925px] xl:w-[1350px]">
-      <img className="h-[25px] w-[25px] cursor-pointer xl:hidden block" src="./Carret_Left.png" alt="Carret left" onClick={handleLeftArrowClick}/>
+      <img className="h-[25px] w-[25px] cursor-pointer xl:hidden block " src="./Carret_Left.png" alt="Carret left" onClick={handleLeftArrowClick}/>
       <div className={`overflow-hidden justify-center align-middle`}>
       <ul className={`all-pages`} style={{ transform: `translateX(-${currentPage * PAGE_WIDTH}px)`}}>
           {sliderImages.map((image, index) => (

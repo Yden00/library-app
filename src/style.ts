@@ -10,7 +10,7 @@ const styles = {
     nav: " bg-section_heading flex justify-center items-center h-[90px]",
     paginationActive: "active",
     bookBtn: "w-[75px] h-[30px] rounded-sm border border-solid border-section_heading text-[10px] font-bold leading-normal font-section_heading",
-    cardInput: "w-[520px] h-[66px] p-6 mb-6 rounded-[10px] text-[25px] font-Forum font-normal font-400 leading-[50px] tracking-[0.9px] placeholder-gray-500",
+    cardInput: "sm:w-[520px] w-full h-[66px] p-6 mb-6 rounded-[10px] text-[25px] font-Forum font-normal font-400 leading-[50px] tracking-[0.9px] placeholder-gray-500",
     hover: "transition-color duration-200 ease-in hover:text-secondary",
   };
 

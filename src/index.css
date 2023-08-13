@@ -77,6 +77,31 @@ input[type="radio"]:checked {
 }
 
 
+@media (max-width: 1225px) {
+  .book-table {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .book-card {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 640px) {
+  .book-table {
+    width: 100%;
+  }
+
+  .book-card {
+    width: 96%;
+    height: 100%;
+  }
+  .book-card p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+
+
 .book-card img {
   width: 200px;
   height: 300px;

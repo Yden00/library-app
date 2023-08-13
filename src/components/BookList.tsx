@@ -16,7 +16,7 @@ const BookList: React.FC<BookListProps> = ({ setSeason }) => {
   };
 
   return (
-    <ul className="grid grid-cols-2 gap-x-[220px] gap-y-[40px]">
+    <ul className="book-table grid md:m-0 mx-auto grid-cols-2 xl:gap-x-[220px] gap-x-2 gap-y-[40px] pr-5">
       {filteredBooks.map(book => (
         <div key={book.id} className="book-card flex flex-col py-3 px-5">
         <div className="pb-5">
